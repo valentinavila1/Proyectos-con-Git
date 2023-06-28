@@ -6,28 +6,64 @@
     <title>MILO Shop</title>
     <style>
       @import url(style.css);
+
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,100;1,700;1,900&display=swap");
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap"
-      rel="stylesheet"
-    />
   </head>
+
   <body class="body">
-    <nav class="navcontainer">
-      <div>
-        <img src="./img/Logo_1_logoweb.png" alt="logo" />
-      </div>
-      <div class="nav-listas">
-        <ul>
-          <a class="listita1" href="#">Sobre Nosotros </a
-          >|
-          <a class="listita2" href="#">Nuestros Productos </a
-          >|
-          <a class="listita3" href="#">Contactate con Nosotros </a>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="nav-container">
+        <div class="logo">
+          <img src="./img/Logo_1_logoweb.png" alt="logo" />
+        </div>
+        <div class="nav-lists">
+          <ul>
+            <a class="list-1" href="#hero">Home</a>
+            <a class="list-2" href="#nosotros">Nosotros </a>
+            <a class="list-3" href="#">Contactanos </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero-land">
+            <div class="hero-info">
+              <h1>Sé vos mismo y lucí genial HACIÉNDOLO</h1>
+
+              <p>
+                En MILO diseñamos y sublimamos productos únicos y personalizados
+                como vos desees. Nuestra misión es consolidarnos como la mejor
+                opción para vos con la consigna de llevar muy alto nuestros
+                valores.
+              </p>
+              <div class="btns">
+                <a class="btn-one" href="#">Sumergite en MILO</a>
+
+                <a class="btn-two" href="#">Descubrí más</a>
+              </div>
+            </div>
+
+            <div class="hero-img">
+              <img src="./img/sublimacion.jpg" alt="imagen" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="nosotros">
+        <div class="info-container">
+          <div class="page-info">
+            <h3>
+              Somos una empresa familiar especializada en la impresión y
+              sublimación hace más de tres años. Creemos que el amor por lo que
+              uno hace es esencial para crecer y para lograrlo es importante la
+              pasión.
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
