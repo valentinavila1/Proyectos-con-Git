@@ -124,6 +124,7 @@
 .info-container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
 
 .page-info {
@@ -140,107 +141,4 @@
   background: linear-gradient(to right, #4c3a7c, #654ea3);
   padding: 40px;
   border-radius: 12px;
-}
-
-@media (max-width: 812px) {
-  .nav-lists {
-    width: 100%;
-  }
-
-  .hero-land {
-    flex-direction: column;
-  }
-
-  .hero-info h1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .hero-info p {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .btns {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .page-info {
-    height: 40px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-lists {
-    padding: 0px 10px;
-    font-size: medium;
-  }
-
-  .logo {
-    padding: 10px;
-  }
-
-  #hero {
-    padding-left: 80px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero-land {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero-land h1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 800;
-    font-size: 56px;
-    padding-right: 82px;
-  }
-
-  .hero-info p {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    width: 90%;
-    padding-right: 22px;
-  }
-
-  .btns {
-    justify-content: start;
-    align-items: center;
-    padding-left: 16px;
-  }
-
-  .btn-one {
-    padding: 16px;
-  }
-  .btn-two {
-    padding: 16px 26px;
-  }
-
-  .hero-img {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 34px;
-  }
-
-  #nosotros {
-    padding: 22px;
-  }
-
-  .info-container {
-    padding: 20px;
-  }
 }

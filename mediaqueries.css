@@ -1,0 +1,99 @@
+@media (max-width: 992px) {
+  .nav-lists {
+    width: 100%;
+  }
+
+  .hero-land {
+    flex-direction: column;
+  }
+
+  .hero-info h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-info p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .btns {
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .page-info {
+    width: 100%;
+    height: 80px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-lists {
+    font-size: 14px;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  #hero {
+    padding: 40px;
+  }
+
+  .hero-land {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .hero-land h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+
+    max-width: 100%;
+  }
+
+  .hero-info p {
+    font-size: 16px;
+  }
+
+  .btns {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .btn-one {
+    padding: 16px;
+  }
+  .btn-two {
+    padding: 16px 26px;
+  }
+
+  .hero-img {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 34px;
+  }
+
+  .page-info h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+}
