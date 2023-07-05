@@ -118,7 +118,7 @@
   background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
   background: linear-gradient(to right, #eaafc8, #654ea3);
 
-  padding: 160px;
+  padding: 120px;
 }
 
 .info-container {
@@ -141,4 +141,79 @@
   background: linear-gradient(to right, #4c3a7c, #654ea3);
   padding: 40px;
   border-radius: 12px;
+}
+
+#benefits {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+
+  padding-top: 50px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
+.benefits-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+}
+
+.benefits-text h2 {
+  font-size: 82px;
+  font-weight: 600;
+  padding: 40px;
+}
+
+.benefits-text p {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 10px;
+  text-align: end;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.benefit-1,
+.benefit-2,
+.benefit-3 {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.benefit-1 h3,
+.benefit-2 h3,
+.benefit-3 h3 {
+  font-size: 38px;
+  text-align: center;
+
+  background: #654ea3;
+  background: -webkit-linear-gradient(to bottom, #6f4da7, #c786f1);
+  background: linear-gradient(to bottom, #6f4da7, #c786f1);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.benefit-info p {
+  padding: 12px;
+  text-align: center;
+}
+
+.benefit-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
