@@ -37,7 +37,8 @@
 
 .list-1,
 .list-2,
-.list-3 {
+.list-3,
+.list-4 {
   margin-left: 50px;
 }
 
@@ -140,16 +141,14 @@
   background: -webkit-linear-gradient(to right, #312553, #654ea3);
   background: linear-gradient(to right, #4c3a7c, #654ea3);
   padding: 40px;
-  border-radius: 12px;
+  border-radius: 22px;
 }
 
 #benefits {
-  background: #654ea3;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #ffffff;
 
-  padding-top: 50px;
-  padding-bottom: 120px;
+  padding: 120px;
+
   margin: 0 auto;
 }
 
@@ -161,35 +160,52 @@
   padding: 28px;
 }
 
-.benefits-text h2 {
-  font-size: 82px;
+.benefit-main {
+  font-size: 55px;
   font-weight: 600;
-  padding: 40px;
+  padding-left: 20px;
 }
 
-.benefits-text p {
-  font-size: 22px;
-  font-weight: 700;
+.benefit-sub {
+  font-size: 20px;
+  font-weight: 600;
   font-style: italic;
-  padding: 10px;
-  text-align: end;
+  padding: 30px 60px;
+  text-align: center;
+  width: 40%;
+}
+
+.benefit-sub p {
+  color: rgb(131, 130, 130);
 }
 
 .benefits-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.benefit-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-img img {
+  width: 60px;
 }
 
 .benefit-1,
 .benefit-2,
 .benefit-3 {
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  padding: 12px;
-  border-radius: 20px;
+  background: -webkit-linear-gradient(to right, #312553, #654ea3);
+  background: linear-gradient(to right, #4c3a7c, #654ea3);
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 1px 2px 4px black;
 }
 
 .benefit-1 h3,
@@ -197,23 +213,93 @@
 .benefit-3 h3 {
   font-size: 38px;
   text-align: center;
+  padding: 12px;
 
-  background: #654ea3;
-  background: -webkit-linear-gradient(to bottom, #6f4da7, #c786f1);
-  background: linear-gradient(to bottom, #6f4da7, #c786f1);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: rgb(255, 255, 255);
 }
 
 .benefit-info p {
-  padding: 12px;
+  padding: 16px;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
-.benefit-img {
+#contact {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.contact-title {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.contact-address,
+.contact-email,
+.contact-number,
+.contact-socialmedia {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 16px;
+  gap: 6px;
+}
+
+.contact-img img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(230, 225, 225);
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.contact-img-info {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-map {
+  box-shadow: 1px 1px 2px black;
+}
+
+.hr {
+  border-top: 1px solid white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  padding: 60px;
+  margin: 0 auto;
+}
+
+.logo-footer img {
+  width: 170px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 }
