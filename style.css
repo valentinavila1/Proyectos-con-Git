@@ -42,6 +42,11 @@
   margin-left: 50px;
 }
 
+.menu-label,
+.menu {
+  display: none;
+}
+
 #hero {
   background: #654ea3;
   background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
