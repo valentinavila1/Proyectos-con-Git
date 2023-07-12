@@ -327,5 +327,5 @@
 .benefit-1,
 .benefit-2,
 .benefit-3 {
-  animation: slidein 1.2s ease-in;
+  animation: slidein 3s ease-in 2s;
 }
