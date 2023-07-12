@@ -308,3 +308,24 @@
   justify-content: center;
   align-items: center;
 }
+
+@keyframes slidein {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.btns {
+  animation: slidein 2s ease-in-out;
+}
+
+.benefit-1,
+.benefit-2,
+.benefit-3 {
+  animation: slidein 1.2s ease-in;
+}
